@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+/* Style for footer */
+#footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Align text to center */
+}
+
+/* Style for footer paragraph */
+#footer p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for footer links */
+#footer ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for footer list items */
+#footer ul li {
+    display: inline; /* Display items horizontally */
+    margin-right: 10px; /* Add spacing between items */
+}
+
+/* Style for footer link icons */
+#footer ul li a {
+    color: #fff; /* White color */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Adjust icon size */
+}
+
+/* Change link color on hover */
+#footer ul li a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
